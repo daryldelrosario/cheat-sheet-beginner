@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+
+    /* For Debug Purpose */
+    border: 1px solid yellow;
+}
+
+html {
+    height: 100%;
+}
+
+table {
+    margin: auto;
+    width: 77%;
+}
+
+thead {
+    text-align: center;
+}
+
+tbody > tr > :nth-child(1) {
+    text-align: center;
+}
+
+tbody > tr > :nth-child(2) {
+    text-align: center;
+}
+
+tbody > tr > :nth-child(3) {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.twenty {
+    width: 20%;
+}
+
+.sixty {
+    width: 60%;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.rubik-vinyl {
+    font-family: 'Rubik Vinyl', cursive;
+}
