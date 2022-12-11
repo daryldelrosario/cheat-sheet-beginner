@@ -29,6 +29,7 @@ table {
 th {
     background-color: rgba(215, 210, 210, 0.5);
     text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
 }
 
 tbody > tr > :nth-child(1) {
@@ -73,16 +74,4 @@ h1 {
 
 .sixty {
     width: 60%;
-}
-
-.center {
-    text-align: center;
-}
-
-.left {
-    text-align: left;
-}
-
-.rubik-vinyl {
-    font-family: 'Rubik Vinyl', cursive;
 }
