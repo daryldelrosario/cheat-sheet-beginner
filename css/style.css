@@ -2,24 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: black;
     color: white;
     font-family: 'Roboto Slab', serif;
 
     /* For Debug Purpose */
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 html {
     height: 100%;
 }
 
+body {
+    background-color: black;
+}
+
+header {
+    margin-top: 33px;
+}
+
 table {
-    margin: auto;
+    margin: 33px auto;
     width: 77%;
 }
 
-thead {
+th {
+    background-color: rgba(215, 210, 210, 0.5);
     text-align: center;
 }
 
@@ -33,6 +41,18 @@ tbody > tr > :nth-child(2) {
 
 tbody > tr > :nth-child(3) {
     text-align: left;
+}
+
+table {
+    border: 1px solid yellow;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(250, 240, 5, 0.77);
+}
+
+th, td {
+    padding: 5px;
 }
 
 h1 {
